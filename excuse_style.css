@@ -1,0 +1,30 @@
+/*Gen_080218
+BeCode lblue : #63C3D1
+BeCode dblue : #16232E
+*/
+body {
+  background-color: #63C3D1;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  height: 100vh;
+  margin: 10px;
+}
+.page {
+  display: grid;
+  /*grid-template-columns: 80% 20%;*/
+  grid-template-rows: 250px auto auto auto auto;
+  margin: auto;
+  width: 60%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: 40px;
+  border: 5px solid #3388CC;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
+}
+li{
+  list-style-type: none;
+  /*text-align: center;
+  justify-content: space-between;*/
+}
